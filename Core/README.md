@@ -12,13 +12,17 @@ Ubuntu
 
 escolher versão mais recente com:
 > git tag 
+
 > git checkout v0.11.2
+
 > git status
 
 
 Executar e Compilar:
 > ./autogen.sh
+
 > make
+
 > sudo make install
 
 
@@ -29,6 +33,7 @@ Desativar a carteira:
 
 Verificar *bitcoind* e *bitcoin-cli*
 > bitcoind
+
 > bitcoin-cli
 
 mais configurações e dependências: https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
